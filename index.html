@@ -15,7 +15,7 @@
         document.documentElement.classList.toggle('dark', true)
 
       // Set the default system primary color
-      const defaultColor = localStorage.getItem('--el-color-primary') || '#E6A23C'
+      const defaultColor = localStorage.getItem('--el-color-primary') || '#6366F1'
       document.documentElement.style.setProperty('--el-color-primary', defaultColor)
       document.documentElement.style.setProperty('--el-color-primary-rgb',
         [[1, 3], [3, 5], [5, 7]].map(i => parseInt(defaultColor.slice(...i), 16)).join(', '),

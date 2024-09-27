@@ -4,7 +4,7 @@ import { getSystemList } from '~/pages/system/settings/api'
 
 export const useSettingsStore = defineStore('settings', {
   state: () => ({
-    name: '后台管理系统',
+    name: 'Lita Admin',
     description: 'Vitesse Background Management System',
     logo: '/logo.png',
     pageSize: 50,

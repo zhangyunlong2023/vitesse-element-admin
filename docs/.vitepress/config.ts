@@ -21,10 +21,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zhiyuanzmj/vitesse-element-admin' },
     ],
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-PRESENT zhiyuanzmj',
-    },
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   copyright: 'Copyright © 2022-PRESENT zhiyuanzmj',
+    // },
     editLink: {
       pattern: 'https://github.com/zhiyuanzmj/vitesse-element-admin/tree/main/docs/:path',
       text: '为此页提供修改建议',

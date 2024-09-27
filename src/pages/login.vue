@@ -44,7 +44,7 @@ function reload() {
           </p>
         </div>
       </div>
-      <div text="center sm gray-400" mt-3 mb-7>—— 登陆界面 ——</div>
+      <div text="center sm gray-400" my-4>- 🐰 -</div>
 
       <el-form-item :rules="{ required: true, message: '不能为空' }" prop="username">
         <el-input v-model="username" placeholder="用户名:">
@@ -64,7 +64,7 @@ function reload() {
       <el-button type="primary" bg-primary z-1 native-type="submit">登录</el-button>
     </el-form>
 
-    <div class="mx-auto my-10 tracking-widest text-gray-400 text-sm font-medium">CopyRight © 2022-present zhiyuanzmj</div>
+    <!-- <div class="mx-auto my-10 tracking-widest text-gray-400 text-sm font-medium">CopyRight © 2022-present zhiyuanzmj</div> -->
   </div>
 </template>
 

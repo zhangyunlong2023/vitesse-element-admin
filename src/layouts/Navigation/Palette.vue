@@ -15,8 +15,8 @@ watch(elColorPrimary, (val) => {
 })
 
 const colorList = [
-  '#409EFF',
   '#6366F1',
+  '#409EFF',
   '#67C23A',
   '#E6A23C',
   '#909399',

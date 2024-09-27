@@ -11,6 +11,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueSetupExtend from 'vite-plugin-vue-setup-extend'
 import ElementPlus from 'unplugin-element-plus/vite'
+import VueMacros from 'unplugin-vue-macros/vite'
 
 export default defineConfig({
   resolve: {
@@ -28,6 +29,7 @@ export default defineConfig({
   },
 
   plugins: [
+    VueMacros(),
     Vue({
       include: [/\.vue$/],
       reactivityTransform: true,
